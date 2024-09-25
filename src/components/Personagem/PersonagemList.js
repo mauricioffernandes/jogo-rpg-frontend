@@ -18,6 +18,7 @@ const PersonagemList = () => {
 
   return (
     <div className="container mt-4">
+       <a href="/" type="button" class="btn btn-success">Página Inicial</a><br/><br/>
       <h1 className="text-center mb-4">Lista de Personagens</h1>
       <table className="table table-striped table-hover">
         <thead className="thead-dark">

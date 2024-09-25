@@ -33,6 +33,7 @@ const PersonagemForm = () => {
 
   return (
     <div className="container mt-5">
+      <a href="/" type="button" class="btn btn-success">Página Inicial</a><br/><br/>
       <h2 className="mb-4">Criar Personagem</h2>
       <form className="container" onSubmit={handleSubmit}>
       <div className="col-md-6">
